@@ -14,7 +14,7 @@ class Database {
     }
 
     connect() {
-        mongoose.connect("mongodb+srv://yourusername:yourpassword@twitterclonecluster.dcv5a.mongodb.net/?retryWrites=true&w=majority")
+        mongoose.connect("mongodb+srv://yourusername:yourpassword@twitterclonecluster.dcv5a.mongodb.net/?retryWrites=true&w=majority")//here your have to connect your own database.
         .then(() => {
             console.log("database connection successful");
         })
@@ -25,3 +25,5 @@ class Database {
 }
 
 module.exports = new Database();
+
+//PEACE OUT ✌🏻
