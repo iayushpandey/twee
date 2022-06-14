@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3003;
+const port = 3001;
 const middleware = require('./middleware')
 const path = require('path')
 const bodyParser = require("body-parser")

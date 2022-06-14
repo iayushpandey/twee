@@ -14,7 +14,7 @@ class Database {
     }
 
     connect() {
-        mongoose.connect("mongodb+srv://yourusername:yourpassword@twitterclonecluster.dcv5a.mongodb.net/?retryWrites=true&w=majority")//here your have to connect your own database.
+        mongoose.connect("mongodb+srv://iayushpandey:9599148468@cluster0.dcv5a.mongodb.net/?retryWrites=true&w=majority")//here your have to connect your own database.
         .then(() => {
             console.log("database connection successful");
         })
